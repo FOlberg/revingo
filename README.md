@@ -1,21 +1,21 @@
-# Orirgin of label name
+# Where does the label come from?
 Artificial name combo of "Review" &amp; "Bingo". Exact Name TBD
 
-# What is revingo
+# What is revingo?
 A fun project by two like minded guys.
 It's somewhat like a bullshit bingo inspired product review quiz app.
 
-# What will it look like? What can I do whith it?
-dunno lel
+# What will it look like? What can I do with it?
+dunno yet
 
 # Why?!
 
 fun, u know. 
-& cause we r nerds as u may are aswell. Sry, not sry ^^
+& cause we are nerds as u may are as well
 
 # Passive agressive ...
-out there in the world wyld web there will may always be someone that feels butthurt by the things you do ...
-do your own thing, mind your own business & live ur live :)
+out there .. in the world wyld web .. there (may) always be someone that feels butthurt by the things you do ...
+do your own thing, mind your own business & live your life :)
 
 "... Don't let your dreams be dreams
 Yesterday you said tomorrow
@@ -28,9 +28,9 @@ Just do it ..." by Shia LaBeuaf
 
 # Style guide?
 not determined...
-but lower case seems to have a calming & relaxing effect, at least I may have heard so ...
-Thus, snakecase or the default style guide by the used programming language, framework etc.
-using kanban, githubs "Projects", features outta that are already done. "Don't reinvent the wheel"
+but lower case seems to have a calming & relaxing effect, at least what we might have heard so ...
+thus, snakecase or the default style guide by the used programming language, framework, ... can be applied.
+using kanban, githubs "Projects", features outta that are already done. "Don't reinvent the wheel" (by someone)
 
 
 # Code of conduct
@@ -41,9 +41,10 @@ be open minded, use new, innovative technologies
 & no one is perfect, we are just human beings
 
 ## Personal interests
-### LHussi
+### [L Husmann](https://github.com/leonardhusmann)
 ### [FOlberg](https://github.com/FOlberg)
-rust, swift, it-sec
+(at the time of 2022)
+rust, swift, it-sec 
 
 
 # Useful links
