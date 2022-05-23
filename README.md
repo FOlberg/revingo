@@ -23,7 +23,7 @@ So just do it
 Make your dreams come true
 Just do it ..." by Shia LaBeuaf
 
-"The important thing is not to stop questioning"  (by Albert Einstein)[https://books.google.at/books?id=dlYEAAAAMBAJ&pg=PA64&dq=%22The+important+thing+is+not+to+stop+questioning.+Curiosity+%22&hl=de&sa=X&ved=0ahUKEwil46HHqbDkAhUMtosKHTUuDmsQ6AEIKTAA#v=onepage&q=%22The%20important%20thing%20is%20not%20to%20stop%20questioning.%20Curiosity%20%22&f=false]
+"The important thing is not to stop questioning"  [by Albert Einstein](https://books.google.at/books?id=dlYEAAAAMBAJ&pg=PA64&dq=%22The+important+thing+is+not+to+stop+questioning.+Curiosity+%22&hl=de&sa=X&ved=0ahUKEwil46HHqbDkAhUMtosKHTUuDmsQ6AEIKTAA#v=onepage&q=%22The%20important%20thing%20is%20not%20to%20stop%20questioning.%20Curiosity%20%22&f=false)
 
 
 # Style guide?
@@ -47,3 +47,7 @@ rust, swift, it-sec
 
 
 # Useful links
+- [choosealicense.com](https://choosealicense.com/licenses/gpl-3.0/)
+- [Kanban in github](https://libliboom.medium.com/how-to-use-automated-kanban-in-github-cf073f18a6c8)
+- [having fun with strangers]("https://www.meetup.com/about/")
+- ... 
