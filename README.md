@@ -49,5 +49,5 @@ rust, swift, it-sec
 # Useful links
 - [choosealicense.com](https://choosealicense.com/licenses/gpl-3.0/)
 - [Kanban in github](https://libliboom.medium.com/how-to-use-automated-kanban-in-github-cf073f18a6c8)
-- [having fun with strangers]("https://www.meetup.com/about/")
+- [having fun with strangers](https://www.meetup.com/about/)
 - ... 
