@@ -42,7 +42,7 @@ be open minded, use new, innovative technologies
 
 ## Personal interests
 ### LHussi
-### FOlberg
+### [FOlberg]()
 rust, swift, it-sec
 
 
