@@ -28,6 +28,7 @@ struct StubCardView: View {
     @State private var animate = false
     
     
+    
     let descriptionText: LocalizedStringKey  = "cardDescritionText"
     let cardHeaderTopLabel: LocalizedStringKey = "cardHeaderTopLabel"
     let cardHeaderCenterLabel: LocalizedStringKey = "cardHeaderCenterLabel"
@@ -79,6 +80,18 @@ struct StubCardView: View {
             .scaledToFit()
             .frame(height: UIScreen.main.bounds.height / 14)
             .padding()
+    }
+    
+    func onHoverAction(hovering: Bool) -> Void {
+        if(!hovering) {
+            return
+        }
+        
+        
+    }
+    
+    func onTapGestureAction() -> Void {
+        
     }
     
     var body: some View {
@@ -133,11 +146,30 @@ struct StubCardView: View {
                         animate.toggle()
                     }
                 }
+                .onHover(perform: onHoverAction)
+                .onTapGesture(perform: onTapGestureAction)
             Spacer()
             FooterView()
         }
     }
 }
+
+//struct LibraryContent: LibraryContentProvider {
+//    @LibraryContentBuilder
+//    func modifiers(base: RoundedRectangle) -> [LibraryItem] {
+//        LibraryItem {
+//            base
+//                .fill(.pink)
+//                .blur(radius: 20)
+//                .offset(x: animate ? -120 : 10,y :animate ? -100 : 20)
+//                .rotation3DEffect(.degrees(animate ? 80 : 20), axis: (x: animate ? 0.4 : 0, y: animate ? 0 : 0.1, z: animate ? 0 : 0.5))
+//        }
+//    }
+//}
+
+//extension RoundedRectangle {
+//
+//}
 
 struct Fun_Previews: PreviewProvider {
     static var previews: some View {
