@@ -27,9 +27,6 @@ import SwiftUI
 struct StubCardView: View {
     @State private var animate = false
     
-    /**
-     Add multilanguage support
-     */
     
     let descriptionText: LocalizedStringKey  = "cardDescritionText"
     let cardHeaderTopLabel: LocalizedStringKey = "cardHeaderTopLabel"
@@ -43,15 +40,17 @@ struct StubCardView: View {
                     Image(systemName: "hand.tap.fill")
                         .font(.title2)
                     Text(cardHeaderTopLabel)
-                        .font(.title)
-                        .padding(.leading)
+                        .font(.title2)
+                        .padding()
                 }
                 Text(cardHeaderCenterLabel)
                     .bold()
-                    .font(.system(size: 40, weight: .heavy))
+                    .font(.system(size: 38, weight: .heavy))
+                    .lineLimit(1)
                 Text(cardHeaderBottomLabel)
-                    .font(.system(size: 40, weight: .regular))
+                    .font(.system(size: 20, weight: .regular))
                     .padding(.vertical,-25)
+                    .lineLimit(1)
             }
             Spacer()
         }.padding().padding()
@@ -72,6 +71,14 @@ struct StubCardView: View {
             Spacer()
             BottomDescriptionText()
         }.foregroundColor(.white)
+    }
+    
+    fileprivate func FooterView() -> some View {
+        return Image("revingo_logo")
+            .resizable()
+            .scaledToFit()
+            .frame(height: UIScreen.main.bounds.height / 14)
+            .padding()
     }
     
     var body: some View {
@@ -127,11 +134,7 @@ struct StubCardView: View {
                     }
                 }
             Spacer()
-            Image("revingo_logo")
-                .resizable()
-                .scaledToFit()
-                .frame(height: UIScreen.main.bounds.height / 14)
-                .padding()
+            FooterView()
         }
     }
 }
