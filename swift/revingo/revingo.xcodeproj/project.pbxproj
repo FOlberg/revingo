@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82711D10284BC6430023B709 /* StubCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82711D0F284BC6430023B709 /* StubCardView.swift */; };
+		82711D11284BC6430023B709 /* StubCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82711D0F284BC6430023B709 /* StubCardView.swift */; };
+		82711D18284BCB8D0023B709 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82711D1B284BCB8D0023B709 /* Localizable.strings */; };
+		82711D19284BCB8D0023B709 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82711D1B284BCB8D0023B709 /* Localizable.strings */; };
 		82C427A1283BAFB0003F7876 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C427A0283BAFB0003F7876 /* Tests_iOS.swift */; };
 		82C427A3283BAFB0003F7876 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C427A2283BAFB0003F7876 /* Tests_iOSLaunchTests.swift */; };
 		82C427AD283BAFB0003F7876 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C427AC283BAFB0003F7876 /* Tests_macOS.swift */; };
@@ -39,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82711D0F284BC6430023B709 /* StubCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubCardView.swift; sourceTree = "<group>"; };
+		82711D1A284BCB8D0023B709 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		82711D1C284BCCF10023B709 /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		82C42788283BAFAF003F7876 /* revingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revingoApp.swift; sourceTree = "<group>"; };
 		82C42789283BAFAF003F7876 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82C4278A283BAFB0003F7876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +111,7 @@
 		82C42787283BAFAF003F7876 /* sharedOS */ = {
 			isa = PBXGroup;
 			children = (
+				82711D1B284BCB8D0023B709 /* Localizable.strings */,
 				82C427C8283BB2BA003F7876 /* ViewModels */,
 				82C427C7283BB2A8003F7876 /* Models */,
 				82C427C6283BB2A0003F7876 /* Views */,
@@ -154,6 +162,7 @@
 			children = (
 				82C42789283BAFAF003F7876 /* ContentView.swift */,
 				82C427D0283BD932003F7876 /* New.swift */,
+				82711D0F284BC6430023B709 /* StubCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +296,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 82C42782283BAFAF003F7876;
 			productRefGroup = 82C42790283BAFB0003F7876 /* Products */;
@@ -307,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82C427B4283BAFB0003F7876 /* Assets.xcassets in Resources */,
+				82711D18284BCB8D0023B709 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82C427B5283BAFB0003F7876 /* Assets.xcassets in Resources */,
+				82711D19284BCB8D0023B709 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82C427B2283BAFB0003F7876 /* ContentView.swift in Sources */,
+				82711D10284BC6430023B709 /* StubCardView.swift in Sources */,
 				82C427D1283BD932003F7876 /* New.swift in Sources */,
 				82C427B0283BAFB0003F7876 /* revingoApp.swift in Sources */,
 			);
@@ -350,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82C427B3283BAFB0003F7876 /* ContentView.swift in Sources */,
+				82711D11284BC6430023B709 /* StubCardView.swift in Sources */,
 				82C427D2283BD932003F7876 /* New.swift in Sources */,
 				82C427B1283BAFB0003F7876 /* revingoApp.swift in Sources */,
 			);
@@ -387,6 +401,18 @@
 			targetProxy = 82C427A9283BAFB0003F7876 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82711D1B284BCB8D0023B709 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82711D1A284BCB8D0023B709 /* en */,
+				82711D1C284BCCF10023B709 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		82C427B6283BAFB0003F7876 /* Debug */ = {

@@ -1,0 +1,13 @@
+/*
+  Localizable.strings
+  revingo
+
+  Created by Frederik Olberg on 04.06.22.
+  
+*/
+
+"cardHeaderTopLabel" = "Quiz";
+"cardHeaderCenterLabel" = "Bewertungen";
+"cardHeaderBottomLabel" = "multiple choice";
+
+"cardDescritionText" = "Find die einzigwahre Bewertung für jede Bewertung. Starte jetzt und nehme die Herausfordung an...";

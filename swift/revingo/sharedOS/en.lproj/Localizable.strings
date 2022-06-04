@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  revingo
+
+  Created by Frederik Olberg on 04.06.22.
+  
+*/
+
+"cardHeaderTopLabel" = "Quiz";
+"cardHeaderCenterLabel" = "Reviews";
+"cardHeaderBottomLabel" = "multiple choice";
+
+"cardDescritionText" = "Find the right review for a product among all the wrong ones. Let's jump right into it...";
+
