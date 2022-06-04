@@ -27,7 +27,7 @@ import SwiftUI
 struct StubCardView: View {
     @State private var animate = false
     
-    
+    @State private var cardHovering = false
     
     let descriptionText: LocalizedStringKey  = "cardDescritionText"
     let cardHeaderTopLabel: LocalizedStringKey = "cardHeaderTopLabel"
@@ -54,7 +54,10 @@ struct StubCardView: View {
                     .lineLimit(1)
             }
             Spacer()
-        }.padding().padding()
+        }.onHover(perform: onHoverAction)
+            .onTapGesture(perform: onTapGestureAction)
+            .padding()
+            .padding()
     }
     
     fileprivate func BottomDescriptionText() -> some View {
@@ -83,11 +86,7 @@ struct StubCardView: View {
     }
     
     func onHoverAction(hovering: Bool) -> Void {
-        if(!hovering) {
-            return
-        }
-        
-        
+        self.cardHovering = hovering
     }
     
     func onTapGestureAction() -> Void {
@@ -146,10 +145,10 @@ struct StubCardView: View {
                         animate.toggle()
                     }
                 }
-                .onHover(perform: onHoverAction)
-                .onTapGesture(perform: onTapGestureAction)
             Spacer()
             FooterView()
+                .scaleEffect(cardHovering ? 2 : 1.0)
+                .animation(.default, value: cardHovering)
         }
     }
 }
