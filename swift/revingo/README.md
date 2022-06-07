@@ -24,3 +24,6 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 ```
+
+# Debug allowance on iPhone:
+Settings -> General -> VPN et gestion de l£appereil -> app de devloppeur -> revingo -> activate
