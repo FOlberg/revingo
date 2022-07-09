@@ -78,7 +78,7 @@ struct StubCardView: View {
     }
     
     fileprivate func FooterView() -> some View {
-        return Image("revingo_logo")
+        return Image(uiImage: UIImage(named: "AppIcon") ?? UIImage())
             .resizable()
             .scaledToFit()
             .frame(height: UIScreen.main.bounds.height / 14)
